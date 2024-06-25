@@ -1,1 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pelicula {
+    margin: 10px;
+    text-align: center;
+}
+
+.pelicula img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 /* You can add global styles to this file, and also import other style files */
